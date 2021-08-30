@@ -1,0 +1,55 @@
+TIPO DE ERRORES
+
+E J E M P L O S
+
+1. Por referencia de datos:
+    1.1- Uso de variables sin valor asignado
+    1.2- Índices de arreglos fuera de rango
+    1.3- Índices de arreglos no enteros
+    1.4- Valor de punteros sin dirección válida
+    1.5- Diferente estructura interna usada en la lectura ó grabación con las estructuras externas
+    1.6- La estructura de un dato no es la misma para todos los módulos
+
+2. Por declaración de datos
+    2.1- Variables no declaradas
+    2.2- Variables con el mismo nombre
+    2.3- Arreglos ó cadena de caracteres no iniciados
+    2.4- Valores iniciales no apropiados
+    2.5- Longitudes y tipo de variables no apropiados para resolver el problema
+    2.De computación 1- Cálculos con variables no numéricas
+    2.2- Cálculos entre variables de diferente tipo
+    2.3- Operaciones entre variables de diferentes longitudes
+    2.4- Variables con longitud no apropiada al os valores en una expresión
+    2.5- Resultados que produzcan “overflow”
+    2.6- Divisiones por cero
+    2.7- Valor de índice fuera de rango
+
+3. De Comparación
+   3.1- Comparaciones entre variables no consistentes por el concepto quer epresentan
+   3.2- Variables a comparar de diferente tipo de dato
+   3.3- Expresiones lógicas incorrectas
+   3.4- Mezcla de comparaciones y expresiones lógicas
+
+4. De Control de Proceso
+    4.1- No termina alguna repetición
+    4.2- No termina el programa
+    4.3- No se ejecuta por lo menos una vez una repetición
+    4.4- Mal los cierres de las estructuras de control
+    4.5- Existen decisiones incompletas en su expresión lógica
+
+5. En las interfases
+   5.1- Número no adecuado de argumentos al llamar a una subrutina
+   5.2- Argumentos de diferente tipo tanto en la llamada como en el encabezamiento del procedimiento
+   5.3- No se respeta el orden de loas parámetros entre la llamada y el encabezamiento
+
+6. De Entrada – Salida
+    6.1- Atributos incorrectos en los archivos
+    6.2- Instrucciones incorrectas de apertura de archivos
+    6.3- Especificación de formato diferentes en las instrucciones de lectura y grabación
+    6.4- Variables de diferente tamaño con respecto a los valores de los registros externos
+    6.5- No se consideró condición de fin de archivo
+    6.6- Errores en el texto de reportes ó mensajes
+
+7. Otros
+    7.1-Son importantes los mensajes de aviso ó advertencia en el caso de producirse
+    7.2- Se omitió alguna función en la codificación
